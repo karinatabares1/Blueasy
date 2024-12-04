@@ -485,3 +485,380 @@ footer{
     
 }
 
+
+@media (max-width: 600px) {
+
+    /* Asegúrate de que el body no tenga desplazamiento horizontal */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Ajustar el encabezado */
+    header {
+        grid-template-columns: 1fr;
+        padding: 15px;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    nav ul {
+        grid-auto-flow: row;
+        gap: 20px;
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    /* Ajustar la imagen de fondo en la sección encabezado */
+    .encabezado {
+        background-size: cover;
+        background-position: center;
+        padding: 40px 0;
+    }
+
+    /* Ajuste en las secciones de letras */
+    .Letras {
+        padding: 0px 30px;
+        margin-top: 50px;
+    }
+
+    .text1, .text2 {
+        font-size: 1.6rem;
+        padding: 15px 25px;
+        margin-bottom: 30px;
+    }
+
+    /* Ajuste en el contenedor azul */
+    .container-blue {
+        padding: 30px 10px;
+        gap: 20px;
+    }
+
+    /* Servicios: reduce las columnas a 2 en lugar de 4 */
+    .services {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        padding-left: 20px;
+    }
+
+    .blue {
+        padding-left: 60px;
+    }
+
+    .nombres {
+        font-size: 14px;
+    }
+
+    .imagesWhile {
+        width: 35px;
+        margin: 0 auto;
+    }
+
+    /* Ajuste en el portafolio */
+    .portafolio {
+        width: 90%;
+        padding: 0 0 40px;
+    }
+
+    .encabezado-portafolio {
+        grid-template-columns: 1fr;
+        padding: 40px 0;
+    }
+
+    .grid-portafolio {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .DefaultSection {
+        grid-template-columns: 1fr;
+        padding: 8px 0;
+    }
+
+    .contenido {
+        gap: 20px;
+        width: 100%;
+    }
+
+    .title4 {
+        width: 100%;
+    }
+
+    .tex {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .container-twitter {
+        padding: 40px 10px;
+    }
+
+    /* Ajustes en las redes sociales */
+    .social-icons {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .description {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    /* Testimonios */
+    .testiminials {
+        grid-template-columns: 1fr;
+    }
+
+    .Testi {
+        grid-template-columns: 1fr;
+    }
+
+    .descriptionTesti {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .testimonials-author {
+        font-size: 12px;
+        color: var(--main-blue);
+    }
+
+    /* Formulario de contacto */
+    .contact-form {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .form-input {
+        width: 100%;
+    }
+
+    .form-textarea {
+        width: 100%;
+        min-height: 150px;
+    }
+
+    .contact-button {
+        padding: 12px 40px;
+        font-size: 1rem;
+    }
+
+    /* Enlaces del pie de página */
+    .footer-links {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .footer-info {
+        justify-self: center;
+        padding-right: 0;
+    }
+}
+
+
+.footer-info{
+   padding-right: 9px; 
+}
+
+@media (max-width: 480px) {
+body {
+    overflow-x: hidden;
+}
+
+header {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 0;
+}
+
+nav ul {
+    grid-auto-flow: row;
+    gap: 15px;
+    margin-right: 0;
+    justify-content: center;
+}
+
+.encabezado {
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+}
+
+
+.Letras {
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+
+.text1, .text2 {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.container-blue {
+    padding: 30px 10px;
+    gap: 20px;
+}
+
+.services {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding-left: 20px;
+}
+
+.blue {
+    padding-left: 60px;
+}
+
+.nombres {
+    font-size: 12px;
+}
+
+.imagesWhile {
+    width: 30px;
+    margin: 0 auto;
+}
+
+
+.portafolio {
+    width: 90%;
+    padding: 0 0 40px;
+}
+
+.encabezado-portafolio {
+    grid-template-columns: 1fr;
+    padding: 40px 0;
+}
+
+.grid-portafolio {
+    grid-template-columns: 1fr;
+}
+
+
+.DefaultSection {
+    grid-template-columns: 1fr;
+    padding: 8px 0;
+}
+
+.contenido {
+    width: 100%;
+}
+    
+.DefaultSection img {
+    padding-left: 72px;
+    width: 70dvb; 
+   
+}
+
+.boton4{
+    padding-left: 202px;
+    padding-left: 0;
+    width: auto;
+}
+
+.title4 {
+    padding-left: 139px;
+    width: 76%;
+    padding-left: 0;
+    width: 100%;
+}
+
+.tex {
+    width: 100%;
+    font-size: 13px;
+}
+
+.container-twitter {
+    padding: 20px 10px;
+    height: 57vh; 
+}
+
+.twitter{
+    width: 18%;
+}
+
+.titleTwitter{
+    padding-left: 39px; 
+    padding-left: 0;
+}
+
+.social-icons {
+    grid-template-columns: 1fr;
+}
+
+.description {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.content-twitter{
+    width: 18%; 
+    
+}
+
+.pajarito{
+    padding-left: 148px;
+}
+   
+.testiminials {
+    grid-template-columns: 1fr;
+}
+
+.Testi {
+    grid-template-columns: 1fr;
+}
+
+.descriptionTesti {
+    width: 100%;
+    font-size: 18px;
+}
+
+.testimonials-author {
+    font-size: 12px;
+    color: var(--main-blue);
+}
+
+.contact-form {
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.form-input {
+    width: 100%;
+}
+
+.form-textarea {
+    min-height: 150px;
+}
+
+strong{
+    color: #ffffff;
+    padding-left: 9px;
+}
+
+.contact-button {
+    padding: 12px 40px;
+    font-size: 1rem;
+}
+
+.footer-links {
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.footer-info {
+    justify-self: center;
+    padding-right: 0;
+}
+}
+ 
