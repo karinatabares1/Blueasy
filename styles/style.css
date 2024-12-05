@@ -1022,10 +1022,11 @@ nav ul {
     text-align: center;
 }
 
-.content-twitter{
+/* .content-twitter{
+    min-width: 639px;
     width: 18%; 
     
-}
+} */
 
 .pajarito{
     padding-left: 0;
@@ -1118,7 +1119,7 @@ strong {
     max-width: 200px;
     margin: 15px 134px;
     width: 20%; 
-    padding: 12px;
+    padding: 13px 111px 19px 47px;
     font-size: 1rem;
     margin-top: 10px;
 }
