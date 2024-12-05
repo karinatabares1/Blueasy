@@ -303,6 +303,7 @@ nav a:hover {
 
 .whois-content{
     display: grid;
+    grid-template-columns: repeat(1, auto);
     gap: 20px;
 }
 
@@ -485,15 +486,165 @@ footer{
     
 }
 
+.form-input {
+    width: 100%; 
+    padding: 31px 0 14px 261px;
+    font-size: 16px; 
+    box-sizing: border-box; 
+}
 
-@media (max-width: 600px) {
+.footer-info{
+    padding-right: 9px; 
+ }
 
-    /* Asegúrate de que el body no tenga desplazamiento horizontal */
+ @media (max-width: 900px) {
     body {
         overflow-x: hidden;
     }
+    
+    header {
+        grid-template-columns: 1fr;
+        padding: 15px;
+        height: auto;
+    }
+    
+    header h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    nav ul {
+        grid-auto-flow: row;
+        gap: 15px;
+        margin-right: 0;
+        justify-content: center;
+    }
+    
+    .encabezado {
+        background-size: cover;
+        background-position: center;
+        padding: 40px 0;
+    }
+    
+    
+    .Letras {
+        padding: 0px 20px;
+        margin-top: 50px;
+    }
+    
+    .text1, .text2 {
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        margin-bottom: 30px;
+    }
 
-    /* Ajustar el encabezado */
+    .container-blue {
+        padding: 30px 10px;
+        gap: 20px;
+    }
+    
+    .services {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding-left: 20px;
+    }
+    
+    .blue {
+        padding-left: 60px;
+    }
+    
+    .portafolio {
+        width: 100%; 
+        padding: 20px 0; 
+        gap: 20px; 
+    }
+
+    .encabezado-portafolio {
+        grid-template-columns: 1fr;
+        padding: 40px 0;
+        text-align: center; 
+    }
+
+    .grid-portafolio {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px; 
+    }
+
+    .grid-portafolio .card {
+        width: 100%; 
+        padding: 15px; 
+        box-sizing: border-box; 
+        background-color: #f9f9f9; 
+        border-radius: 8px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.3s ease; 
+    }
+
+    .grid-portafolio .card:hover {
+        transform: translateY(-10px); 
+    }
+
+    .DefaultSection{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .DefaultSection img {
+        padding-left: 192px;
+    }
+
+    .twitter{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-form {
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 20px; 
+    }
+
+
+    .form-textarea {
+        width: 100%; 
+        min-height: 150px; 
+        padding: 12px; 
+        font-size: 16px; 
+        box-sizing: border-box;
+    }
+
+    .contact-button {
+        padding: 14px 30px;
+        font-size: 1.2rem;
+        text-align: center;
+        background-color: var(--main-blue);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%; 
+    }
+
+    .contact-button:hover {
+        background-color: var(--hover-blue);
+    }
+
+    .contact-title {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    
+    body {
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
     header {
         grid-template-columns: 1fr;
         padding: 15px;
@@ -513,16 +664,16 @@ footer{
         justify-content: center;
     }
 
-    /* Ajustar la imagen de fondo en la sección encabezado */
+   
     .encabezado {
         background-size: cover;
         background-position: center;
         padding: 40px 0;
     }
 
-    /* Ajuste en las secciones de letras */
+  
     .Letras {
-        padding: 0px 30px;
+        padding: 0px 15px;
         margin-top: 50px;
     }
 
@@ -532,13 +683,13 @@ footer{
         margin-bottom: 30px;
     }
 
-    /* Ajuste en el contenedor azul */
+
     .container-blue {
         padding: 30px 10px;
         gap: 20px;
     }
 
-    /* Servicios: reduce las columnas a 2 en lugar de 4 */
+    
     .services {
         grid-template-columns: 1fr 1fr;
         gap: 15px;
@@ -558,7 +709,6 @@ footer{
         margin: 0 auto;
     }
 
-    /* Ajuste en el portafolio */
     .portafolio {
         width: 90%;
         padding: 0 0 40px;
@@ -585,9 +735,11 @@ footer{
 
     .title4 {
         width: 100%;
+        padding-left: 195px;
     }
 
     .tex {
+        text-align: center;
         width: 100%;
         font-size: 14px;
     }
@@ -596,9 +748,67 @@ footer{
         padding: 40px 10px;
     }
 
-    /* Ajustes en las redes sociales */
+    .content-twitter{
+        overflow-x: hidden;
+        width: 100%;  
+        box-sizing: border-box; 
+        margin: 0 auto; 
+        padding: 20px;  
+        padding-left: 242px;
+    }
+    .contact-title{
+        padding-left: 130px;
+    }
+
+    .titleTwitter{
+        padding-left: 231px;
+    }
+.pajarito{
+    padding-left: 0;
+}
+   
+    .container-twitter img,
+    .container-twitter .content {
+    max-width: 100%;
+    height: auto;    
+    overflow: hidden;
+}
+
+.boton4{
+    padding-left: 241px;
+    font-size: 18px;
+}
+    .seccion6{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .whois-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .descriptionWhois {
+        font-size: 14px;
+        line-height: 1.6;
+        color: #ffffff;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+
+    .titleWhois{
+       justify-self: left;
+       padding-left: 110px;
+    }
+
     .social-icons {
-        grid-template-columns: 1fr 1fr;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
     }
 
     .description {
@@ -606,7 +816,7 @@ footer{
         width: 100%;
     }
 
-    /* Testimonios */
+ 
     .testiminials {
         grid-template-columns: 1fr;
     }
@@ -625,30 +835,41 @@ footer{
         color: var(--main-blue);
     }
 
-    /* Formulario de contacto */
     .contact-form {
         grid-template-columns: 1fr;
-        width: 100%;
+        width: 100%; 
+        padding: 20px;
+        gap: 15px; 
+        align-items: center;
     }
 
     .form-input {
         width: 100%;
+        padding: 31px 0 14px 261px ;
+        font-size: 14px;
+
     }
 
     .form-textarea {
-        width: 100%;
+        padding: 31px 0 14px 261px;
         min-height: 150px;
+        min-width: 50px;
     }
 
     .contact-button {
-        padding: 12px 40px;
+        margin-left: 125px;
+        padding: 12px 60px;
         font-size: 1rem;
     }
 
-    /* Enlaces del pie de página */
+   
     .footer-links {
-        grid-template-columns: 1fr;
-        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        justify-content: center;
+        gap: 30px;
+        text-transform: uppercase;
+        text-align: center;
     }
 
     .footer-info {
@@ -657,10 +878,6 @@ footer{
     }
 }
 
-
-.footer-info{
-   padding-right: 9px; 
-}
 
 @media (max-width: 480px) {
 body {
@@ -807,7 +1024,7 @@ nav ul {
 }
 
 .pajarito{
-    padding-left: 148px;
+    padding-left: 0;
 }
    
 .testiminials {
@@ -828,37 +1045,93 @@ nav ul {
     color: var(--main-blue);
 }
 
-.contact-form {
-    grid-template-columns: 1fr;
-    width: 100%;
+.contact {
+    padding: 15px;
+    overflow-x: hidden;
+    max-width: 600px;
+    margin: 0 auto; /
 }
 
-.form-input {
+.contac-header {
+    text-align: center;
+    
+}
+
+.divTwitter{
+    margin-left: 170px;
+}
+.contact-title {
+    padding-left: 158px;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.contact-form {
     width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-textarea { min-width: 10px; }
+
+.form {
+    margin-bottom: 15px;
+}
+
+.formTwo, .formThree {
+    margin-bottom: 15px;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;  
+    font-size: 0.9rem;
+    padding: 10px;
+    box-sizing: border-box; 
+    margin: 0 auto; 
+    padding-left: 263px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .form-textarea {
-    min-height: 150px;
+    min-height: 120px;
+    resize: vertical;
 }
 
-strong{
+.contact-text {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: center;
+}
+
+strong {
     color: #ffffff;
     padding-left: 9px;
 }
 
 .contact-button {
-    padding: 12px 40px;
+    display: block;
+    max-width: 200px;
+    margin: 15px 134px;
+    width: 20%; 
+    padding: 12px;
     font-size: 1rem;
+    margin-top: 10px;
 }
 
 .footer-links {
-    grid-template-columns: 1fr;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 20px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .footer-info {
-    justify-self: center;
+    text-align: center;
     padding-right: 0;
+    font-size: 0.9rem;
 }
 }
  
