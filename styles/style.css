@@ -591,7 +591,7 @@ footer{
     }
 
     .DefaultSection img {
-        padding-left: 17px;
+        padding-left: 176px;
     }
 
     .twitter{
@@ -726,6 +726,10 @@ footer{
     .DefaultSection {
         grid-template-columns: 1fr;
         padding: 8px 0;
+    }
+
+    .DefaultSection img {
+        padding-left: 17;
     }
 
     .contenido {
